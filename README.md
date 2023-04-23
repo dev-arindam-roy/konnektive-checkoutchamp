@@ -1,6 +1,6 @@
 # Konnektive CRM API Documentation
 
-### A laravel package for Konnektive CRM apis documentation.
+### All useful links and documentation for Konnektive CRM and CheckoutChamp CRM.
 
 ## Installation
 
@@ -9,7 +9,7 @@
 ### STEP 1: Run the composer command:
 
 ```shell
-composer require konnective/api-doc
+composer require konnective-crm/api-doc
 ```
 
 ### STEP 2: Laravel without auto-discovery:
@@ -17,7 +17,7 @@ composer require konnective/api-doc
 If you don't use auto-discovery, add the ServiceProvider to the providers array in config/app.php
 
 ```php
-Konnektive\ApiDoc\KonnektiveApiDoc::class,
+KonnektiveCrm\ApiDoc\KonnektiveCrmApiDoc::class,
 ```
 
 ## How to use?: It's Very Easy
@@ -29,10 +29,7 @@ Konnektive\ApiDoc\KonnektiveApiDoc::class,
 </dl>
 
 ```php
-Ex: http://your-website/konnektive-api-doc
+Ex: http://your-website/konnektive-crm-api-doc
 
-Ex: http://localhost:8000/konnektive-api-doc
+Ex: http://localhost:8000/konnektive-crm-api-doc
 ```
-
-
-<a href="https://apidocs.konnektive.com/">https://apidocs.konnektive.com/</a>
