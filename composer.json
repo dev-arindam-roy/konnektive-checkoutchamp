@@ -1,0 +1,37 @@
+{
+    "name": "konnective-crm/api-doc",
+    "description": "All useful links and documentation for Konnektive CRM and CheckoutChamp CRM",
+    "type": "laravel-package",
+    "license": "MIT",
+    "keywords": [
+        "konnektive",
+        "checkoutchamp",
+        "checkoutchamp-crm",
+        "konnektive-crm",
+        "checkoutchamp",
+        "creative-syntax",
+        "onexcrm"
+    ],
+    "authors": [
+        {
+            "name": "Arindam Roy",
+            "email": "arindam.roy.developer@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "KonnektiveCrm\\ApiDoc\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KonnektiveCrm\\ApiDoc\\KonnektiveCrmApiDoc"
+            ]
+        }
+    }
+}
